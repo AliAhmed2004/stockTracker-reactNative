@@ -38,7 +38,7 @@ const StockDetails = () => {
         options={{ title: stock.symbol, headerBackTitleVisible: false }}
       />
       <StockListItem stock={stock} />
-      <Graph />
+      <Graph symbol={stock.symbol} />
     </View>
   );
 };
